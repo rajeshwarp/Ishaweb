@@ -6,9 +6,9 @@ public class Operationtests {
 
 
 
-        @Test 
+        @Test
         public void addTest() {
-            int answer = Operations.add(20, 40);
+            int answer = Operations.add(70, 40);
 
             // the answer must be 60
             Assert.assertEquals(answer, 60);
