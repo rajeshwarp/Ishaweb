@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Operationtests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-07-26T17:51:21" hostname="DESKTOP-A3A7JMV" time="0.006">
+  <properties/>
+  <testcase name="divideTest" classname="Operationtests" time="0.005"/>
+  <testcase name="addTest" classname="Operationtests" time="0.0"/>
+  <testcase name="multiplyTest" classname="Operationtests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

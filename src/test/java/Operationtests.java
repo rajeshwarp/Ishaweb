@@ -1,14 +1,11 @@
 import org.junit.Assert;
 import org.junit.Test;
 
-
 public class Operationtests {
-
-
 
         @Test
         public void addTest() {
-            int answer = Operations.add(70, 40);
+            int answer = Operations.add(20, 40);
 
             // the answer must be 60
             Assert.assertEquals(answer, 60);
@@ -22,6 +19,12 @@ public class Operationtests {
             Assert.assertEquals(answer, 800);
         }
 
+        @Test
+        public void divideTest() {
+            int answer = Operations.divide(40, 20);
 
+            // the answer must be 60
+            Assert.assertEquals(answer, 2);
+        }
 
 }
